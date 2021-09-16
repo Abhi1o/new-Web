@@ -1,0 +1,28 @@
+body{
+    background-color:#c3e2db;
+}
+hr{
+  
+    border-width: 6px;
+    border-color:rgb(223, 223, 223);
+    width: 5%;
+    border-style:dotted none none;
+    
+}
+h3{
+    color:#115a44;
+}
+
+h1{
+    color:#280a79;
+    margin-top: 0px;
+}. 
+td,a{
+    color: rgb(0, 0, 0);
+}
+.web{
+    color: #a17b28;
+}
+.dev{
+    color: rgb(204, 150, 136);
+}

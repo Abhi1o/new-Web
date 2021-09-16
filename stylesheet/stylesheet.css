@@ -1,0 +1,253 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    text-align: center ;
+    font-family: 'Merriweather', serif;
+}
+
+.top-container{
+        margin: 0 ;
+        width: 100%;
+        position: relative;
+        background-color: rgb(239, 255, 250);
+        
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  20px 1px 80px;
+    margin: 0 110px ;
+}
+
+.avatar{
+    width: 5%;
+    border-radius: 100%;
+}
+header ul{
+    padding:0px 0px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+
+}
+header ul li{
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 18px;
+    font-weight: 600;
+}
+   
+.topcont{
+    color: rgb(55, 177, 118);
+    text-decoration: none;
+}
+h1{
+    margin:0 auto;
+    color: rgb(71, 206, 183);
+    font-size: 100px;
+    font-family: 'Alex Brush', cursive;
+    font-weight: 100;
+}
+h2{ 
+    width: 70%;
+    margin: 0 auto;
+    font-size: 2.7em;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(37, 148, 129);
+}
+h3{ 
+    margin: 5px auto 10px auto;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(61, 218, 184);
+}
+p{
+    margin: 0;
+}
+.programmer{
+    margin:0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 50%;
+    padding-bottom: ;
+}
+.pro{
+    text-decoration:underline;   
+}
+
+.island{
+    width: 600px;
+    margin: 0 auto;
+    
+
+}
+.cloud_1{
+    width: 120px;
+    margin-top: 0;
+    position: absolute;
+    left: 17%;
+    
+    
+    
+}
+
+.cloud_2{
+    width: 150px;
+    margin: 0 auto;
+    position: absolute;
+    right:19%;
+    bottom: 45%;
+    
+}
+
+.profile_pic{
+    border-radius: 100%;
+    width: 155px;
+    height: 160px;
+    margin: 60px auto 20px auto;
+    transition: -webkit-box-shadow 0.3s;
+    -webkit-box-shadow: 0px 3px 9px 0px rgb(0 0 0 / 30%), 0px 10px 3px 1px rgb(0 0 0 /1%);
+}
+.middle-container h3{
+    width: 40%;
+}
+.intro{
+    width: 40%;
+    margin: 20px auto auto;
+    line-height: 2;
+}
+
+
+
+hr{
+    color: rgb(241, 241, 241);
+    margin: 90px auto;
+    width: 3%;
+    border-style: dotted none none;
+    border-width: 5px;
+}
+.skill-row{
+    width: 50%;
+    margin: 70px auto 90px auto;
+    text-align: left;
+    line-height: 2;
+}
+.code_img{
+    width: 35%;
+    float: left;
+    margin: 30px 20px auto auto;
+
+}
+.dev_img{
+    width: 25%;
+    float: right;
+    margin-left: 40px;
+    border-radius: 100%;
+}
+.contact_me{
+    width: 43%;
+    margin: auto auto 100px auto ;
+
+}
+.contact_para{
+    line-height: 2;
+    margin: 30px auto 50px;
+}
+.btn{
+    
+    background: #00c79f;
+    height: 40px;
+    padding: 0;
+    display: inline-flex;
+    border-radius: 5px;
+    border: none;
+    outline: none ;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    overflow: hidden;
+    cursor: pointer;
+    transition: -webkit-box-shadow 0.3s;
+    -webkit-box-shadow: 0px 3px 9px 0px rgb(0 0 0 / 15%), 0px 1px 3px 0px rgb(0 0 0 /1%);
+    
+}
+.btn:hover{
+    background-color: #009c7d;
+}
+.btn:active{
+    background-color: #007058;
+}
+.message_icon,
+.message_text{
+padding: 0 10px;
+align-items: center;
+display: inline-flex;
+color: aliceblue;
+height: 100%;
+
+
+}
+.message_icon{
+    font-size: 1.5em;
+    background-color:rgba(63, 52, 52, 0.089);
+}
+footer{
+    background-color: rgb(10, 26, 41);
+    width: 100%;
+    
+}
+.bottom-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  20px 30px;
+    margin: 0 150px ;
+}
+.footer-copyright{
+    box-sizing: border-box;
+    margin: 0;
+    color: aliceblue;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 0;
+    text-align:end;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    line-height: 2.5;
+}
+.footer_name{
+    color: rgba(255, 255, 255, 0.37) ;
+}
+.footer_name:hover{
+    color: rgb(255, 0, 51);
+}
+.footer-icon{
+    box-sizing:50px;
+    display:-webkit-flex;
+
+}
+.youtube:hover{
+    color: rgb(238, 0, 0);
+
+}
+.twitter:hover{
+    color: rgb(0, 217, 255);
+}  
+.facebook:hover{
+    color: rgb(42, 96, 167);
+}
+.linkedin:hover{
+    color: rgb(0, 153, 255);
+}
+.linkedin,.youtube,.twitter,.facebook,.github{
+    color: rgb(243, 243, 243);
+    margin: auto 17px auto ;
+    font-size: 1.6em;
+
+}
+a{
+    text-decoration: none;
+}
